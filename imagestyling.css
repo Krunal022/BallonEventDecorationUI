@@ -1,0 +1,72 @@
+     body {
+            padding: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            background-image: url(pexels-david-buchi-1070345.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .boxx a {
+            text-decoration: none;
+            display: inline-block;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            border: 2px solid rgb(107, 129, 139);
+            padding: 10px 40px;
+            border-radius: 50px;
+            margin-top: 20px;
+        }
+
+        .box a {
+            text-decoration: none;
+            display: inline-block;
+            color: rgba(18, 62, 241, 0.961);
+            font-size: 24px;
+            border: 2px solid black;
+            padding: 14px 70px;
+            border-radius: 50px;
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-family: Algerian;
+            font-size: 40px;
+            text-align: center;
+            color: rgb(0, 187, 255);
+
+            background:linear-gradient(135deg,#ff00d2,#fed90f,#00a2ff,#09f1b8,#ff00d2,#fed90f,#00a2ff,#09f1b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 300% 300%;
+            animation: gradient 2s
+               ease-in-out infinite;
+        }
+        @keyframes gradient {
+            0%{
+                background-position: 0% 50%;
+            }
+            50%{
+                background-position: 0% 50%;
+            }
+            100%{
+                background-position: 100% 50%;
+            }
+        }
+
+        .gallery {
+            padding: 0px 100px;
+        }
+
+        .gallery img {
+            width: 230px;
+            padding: 5px;
+            filter: grayscale(0%);
+            transition: 1s;
+        }
+
+        .gallery img:hover {
+            filter: grayscale(0);
+            transform: scale(1.1);
+        }
+    
